@@ -18,6 +18,18 @@ if grape_count == 1:
 	print("Grapes need to be restocked.")
 else:
 	print("Grapes are sufficiently stocked")
+# Now to check whether Oranges are in stock or not
+
+orange_index = shelf.index("oranges")
+# Now an if statement to see if we have any in stock
+if "oranges" in shelf:
+	print("Oranges are at Index:", orange_index)
+else:
+	print("Oranges are out of stock.")
+	
+
+
+
 
 
 
