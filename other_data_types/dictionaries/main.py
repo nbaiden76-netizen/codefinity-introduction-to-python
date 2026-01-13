@@ -40,7 +40,7 @@ bread_details = grocery_inventory["Bread"]
 print("Details of Bread:", bread_details)
 # Adding a new item using the Data dictionary method "update" 
 grocery_inventory.update({"Cookies": (143, "Bakery")})
-print("Inventory after addeding Cookies:", grocery_inventory)
+print("Inventory after adding Cookies:", grocery_inventory)
 # removing an item from the list 
 grocery_inventory.pop("Eggs")
 print("Inventory after removing Eggs:", grocery_inventory)
