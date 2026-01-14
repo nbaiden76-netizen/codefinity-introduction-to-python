@@ -14,7 +14,7 @@ print("Inventory after adding Tomatoes:", grocery_inventory)
 # Manage the Stock 
 grocery_inventory["Milk"][2]
 if grocery_inventory["Milk"][2] < 10:
-    print("milk needs to be restocked. increasing stock by 20 units.")
+    print("Milk needs to be restocked. Increasing stock by 20 units.")
     #grocery_inventory["Milk"][2] + 20
     grocery_inventory["Milk"] = ("Dairy", 3.50, 8 + 20)
 else:
