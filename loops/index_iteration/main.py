@@ -1,5 +1,5 @@
 prices = [29.99, 45.50, 12.75, 38.20]
-discount_factor = [0.10, 0.20, 0.15,0.5]
+discount_factor = [0.10, 0.20, 0.15,0.05]
 
 # List of grocery items
 # grocery_list = ["Apples", "Bananas", "Carrots", "Cucumbers"]
